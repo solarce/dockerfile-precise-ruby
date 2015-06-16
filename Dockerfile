@@ -17,3 +17,4 @@ RUN apt-get --quiet --yes install build-essential libncurses-dev git
 RUN apt-get --quiet --yes install ruby2.1 ruby2.1-dev libruby2.1
 RUN gem install bundler --no-ri --no-rdoc
 RUN gem install fpm --no-ri --no-rdoc
+RUN gem install pleaserun --no-ri --no-rdoc
